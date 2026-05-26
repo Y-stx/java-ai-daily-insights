@@ -1,3 +1,54 @@
+## 2026-05-26 晚间完整流程测试：Java AI GitHub 情报总结
+
+> 生成时间：2026-05-26 19:13 CST
+> 主题：Java 开发者可重点关注的 AI 开源项目、工程趋势与落地机会
+
+### 一、GitHub 开源项目观察
+
+#### 1. LangChain4j：Java AI 应用开发的主线框架
+- **摘要**：LangChain4j 继续适合作为 Java 团队接入 LLM、RAG、Embedding、工具调用和 Agent 编排的核心框架。它的价值不只在 API 封装，更在于让 Java 后端团队可以沿用熟悉的工程组织方式，把模型能力纳入现有服务体系。
+- **适合关注的人群**：Spring Boot、Quarkus、Micronaut 后端团队；正在做知识库问答、智能客服、企业内部助手的 Java 团队。
+- **原始链接**：https://github.com/langchain4j/langchain4j
+
+#### 2. Spring AI：Spring 生态的 AI 标准抽象层
+- **摘要**：Spring AI 的重点是把 Chat Model、Embedding、Vector Store、Tool Calling、ETL 和 RAG 等能力放进 Spring 编程模型。对于已经以 Spring Boot 为主栈的公司，它更像是企业 AI 应用的基础设施入口。
+- **适合关注的人群**：需要统一接入 OpenAI、Azure OpenAI、Ollama、Bedrock、Vertex AI 等模型服务的企业 Java 团队。
+- **原始链接**：https://github.com/spring-projects/spring-ai
+
+#### 3. Semantic Kernel Java：跨语言 Agent 编排参考
+- **摘要**：Semantic Kernel 的 Java SDK 适合观察函数调用、插件化能力、Planner 和 Agent 编排思路。即使团队不直接采用，也可以借鉴它对 AI workflow、技能封装和外部系统调用的抽象方式。
+- **适合关注的人群**：Microsoft/Azure 技术栈团队；关注跨语言 Agent 平台设计的架构师和后端开发者。
+- **原始链接**：https://github.com/microsoft/semantic-kernel
+
+#### 4. Spring AI Alibaba：国内模型与 Spring AI 结合的落地样本
+- **摘要**：Spring AI Alibaba 对国内模型服务、云平台和 Spring AI 生态结合有参考价值。对国内 Java 团队而言，它能降低从传统后端应用迁移到大模型应用的试错成本。
+- **适合关注的人群**：需要接入通义、国内云模型服务、企业内部 AI 平台的 Java/Spring 团队。
+- **原始链接**：https://github.com/alibaba/spring-ai-alibaba
+
+#### 5. Model Context Protocol Java SDK：工具生态互联的新入口
+- **摘要**：MCP 正在成为模型连接外部工具、数据源和企业系统的重要协议。Java SDK 的价值在于让后端服务可以成为 MCP server 或 client，从而把已有 Java 系统暴露给 AI 工具链。
+- **适合关注的人群**：正在建设内部工具平台、DevOps 助手、代码助手、企业数据连接器的后端团队。
+- **原始链接**：https://github.com/modelcontextprotocol/java-sdk
+
+### 二、对 Java 开发者的实际启发
+
+1. **RAG 仍是最容易落地的方向**：知识库问答、制度检索、客服辅助、研发文档助手等场景继续适合 Java 后端团队切入。
+2. **工具调用和 Agent 需要工程治理**：真正上线时，权限、审计、失败重试、限流、观测、成本控制比 demo 更关键。
+3. **Spring 生态会继续降低接入门槛**：Spring AI 与相关国内扩展会让模型接入、向量库、工具调用更像普通后端能力。
+4. **MCP 值得提前跟踪**：如果企业已有大量内部系统，MCP 可能成为“把系统能力交给模型使用”的标准接口之一。
+5. **Java 的机会在工程化，不在追逐模型本身**：Java 团队更适合做 AI 应用平台、业务集成、工作流编排、权限治理和稳定交付。
+
+### 三、本次生成结果的 token 花费估算
+
+- **统计口径**：当前运行环境无法读取真实模型 API usage，因此这里记录的是基于本篇新增 Markdown 正文的可观测估算，不等同于平台最终计费 token。
+- **新增正文规模**：2,376 个字符，其中汉字 973 个、英文/数字片段 188 个。
+- **估算输入 token**：约 900-1,300 tokens，来自仓库现有内容、任务要求和生成约束。
+- **估算输出 token**：约 1,300-1,800 tokens，来自本篇新增总结正文。
+- **估算总 token**：约 2,200-3,100 tokens。
+- **备注**：如果后续接入 OpenAI API 或其他模型 API，建议在自动化脚本中直接记录 `usage.prompt_tokens`、`usage.completion_tokens` 和 `usage.total_tokens`，这样可以得到精确成本。
+
+---
+
 ## 📅 2026-05-26 每日情报
 
 ### GitHub 热门开源项目
