@@ -19,15 +19,26 @@ MODEL_API_MODEL=your-model-name
 MODEL_API_KEY=your-api-key
 ```
 
+如果使用 Anthropic Claude API：
+
+```bash
+MODEL_API_PROVIDER=anthropic
+MODEL_API_BASE_URL=https://api.anthropic.com
+MODEL_API_MODEL=claude-sonnet-4-20250514
+MODEL_API_KEY=your-anthropic-api-key
+```
+
 常用配置：
 
+- `MODEL_API_PROVIDER`：模型服务类型，支持 `openai` / `anthropic`；不配置时会根据 key 和 base URL 自动判断。
 - `MODEL_API_ENDPOINT`：完整请求地址；配置后优先于 `MODEL_API_BASE_URL`，适合非标准路径。
-- `MODEL_API_BASE_URL`：基础地址；如果结尾不是 `/v1`，脚本会自动拼接 `/v1/chat/completions`。
-- `MODEL_API_MODEL`：模型名称；兼容旧变量 `OPENAI_MODEL`。
-- `MODEL_API_KEY`：API key；兼容旧变量 `OPENAI_API_KEY`。
+- `MODEL_API_BASE_URL`：基础地址；OpenAI-compatible 会自动拼接 `/v1/chat/completions`，Anthropic 会自动拼接 `/v1/messages`。
+- `MODEL_API_MODEL`：模型名称；兼容旧变量 `OPENAI_MODEL` 和 `ANTHROPIC_MODEL`。
+- `MODEL_API_KEY`：API key；兼容旧变量 `OPENAI_API_KEY` 和 `ANTHROPIC_API_KEY`。
 - `MODEL_API_AUTH_HEADER`：鉴权 header，默认 `Authorization`。
 - `MODEL_API_AUTH_SCHEME`：鉴权前缀，默认 `Bearer`；如果服务要求直接传 key，可设为空字符串。
 - `MODEL_API_TEMPERATURE`：默认 `0.4`。
+- `MODEL_API_MAX_TOKENS`：Anthropic 输出上限，默认 `4096`。
 - `MODEL_API_EXTRA_HEADERS_JSON`：额外请求头 JSON，例如 `{"HTTP-Referer":"https://example.com"}`。
 - `MODEL_API_EXTRA_BODY_JSON`：额外请求体 JSON，例如 `{"max_tokens":4096}`。
 
