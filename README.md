@@ -10,4 +10,5 @@
 
 ## Reports
 
+- [2026-05-27 Java AI GitHub 工程化项目观察](reports/2026-05-27-java-ai-github-工程化项目观察.md)
 - [2026-05-26 Java AI GitHub 工程化项目观察](reports/2026-05-26-java-ai-github-工程化项目观察.md)
