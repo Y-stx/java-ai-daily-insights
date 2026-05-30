@@ -6,8 +6,8 @@
 - 每天 08:30 由 `java-ai-daily-insights.timer` 触发。
 - 每次运行会生成一份新的 Markdown 文档：`reports/YYYY-MM-DD-总结核心内容.md`。
 - 脚本会更新本 README 的报告索引，并自动 commit/push 到 GitHub。
-- 报告内容按固定模板生成：GitHub 热门开源项目、国内大厂招聘动态、行业比赛与活动、AI 应用工程师每日小任务、Java 开发者启发和 token 花费。
-- 如果模型 API 可用，报告会记录真实 token usage；如果 API 鉴权或网络失败，会使用本地模板 fallback，并记录模型 API token 为 0。
+- 报告内容按固定模板生成：GitHub 热门开源项目、国内大厂招聘动态、行业比赛与活动、AI 应用工程师每日小任务和 Java 开发者启发。
+- 如果模型 API 可用，报告会调用模型生成；如果模型 API 鉴权失败，脚本会停止生成，避免提交重复的本地 fallback 报告。
 
 ## Model API
 
