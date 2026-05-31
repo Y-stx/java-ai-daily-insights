@@ -19,6 +19,16 @@ MODEL_API_MODEL=your-model-name
 MODEL_API_KEY=your-api-key
 ```
 
+如果使用 Codex/OpenAI-compatible API，即使 token 是 `sk-ant-` 格式，也应显式声明
+`MODEL_API_PROVIDER=openai`，并使用该服务提供的 `/v1` 兼容地址：
+
+```bash
+MODEL_API_PROVIDER=openai
+MODEL_API_BASE_URL=https://dm-fox.rjj.cc/codex/v1
+MODEL_API_MODEL=gpt-5.5
+MODEL_API_KEY=your-codex-api-key
+```
+
 如果使用 Anthropic Claude API：
 
 ```bash
@@ -44,6 +54,7 @@ MODEL_API_KEY=your-anthropic-api-key
 
 ## Reports
 
+- [2026-05-31 2026-05-31 Java AI 每日情报](reports/2026-05-31-2026-05-31-java-ai-每日情报.md)
 - [2026-05-30 2026-05-30 Java AI 每日情报](reports/2026-05-30-2026-05-30-java-ai-每日情报.md)
 - [2026-05-29 2026-05-29 Java AI 每日情报](reports/2026-05-29-2026-05-29-java-ai-每日情报.md)
 - [2026-05-28 2026-05-28 Java AI 每日情报](reports/2026-05-28-2026-05-28-java-ai-每日情报.md)
