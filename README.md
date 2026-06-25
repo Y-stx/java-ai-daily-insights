@@ -54,6 +54,7 @@ MODEL_API_KEY=your-anthropic-api-key
 
 ## Reports
 
+- [2026-06-25 2026-06-25 Java AI 每日情报](reports/2026-06-25-2026-06-25-java-ai-每日情报.md)
 - [2026-06-24 2026-06-24 Java AI 每日情报](reports/2026-06-24-2026-06-24-java-ai-每日情报.md)
 - [2026-06-23 2026-06-23 Java AI 每日情报](reports/2026-06-23-2026-06-23-java-ai-每日情报.md)
 - [2026-06-22 2026-06-22 Java AI 每日情报](reports/2026-06-22-2026-06-22-java-ai-每日情报.md)
