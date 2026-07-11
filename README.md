@@ -4,10 +4,10 @@
 ## Automation
 
 - 每天 08:30 由 `java-ai-daily-insights.timer` 触发。
-- 每次运行会生成一份新的 Markdown 文档：`reports/YYYY-MM-DD-总结核心内容.md`。
+- 每次运行会生成一篇新的 Markdown 学习文章：`reports/YYYY-MM-DD-文章标题.md`。
 - 脚本会更新本 README 的报告索引，并自动 commit/push 到 GitHub。
-- 报告内容按固定模板生成：GitHub 热门开源项目、国内大厂招聘动态、行业比赛与活动、AI 应用工程师每日小任务和 Java 开发者启发。
-- 如果模型 API 可用，报告会调用模型生成；如果模型 API 鉴权失败，脚本会停止生成，避免提交重复的本地 fallback 报告。
+- 文章面向中北大学软件学院大二升大三学生，包含原创标题、目录表、Markdown 图片、Mermaid 图、核心项目解读、最新信息分析、知识拆解和每日动手任务。
+- 如果模型 API 可用，文章会调用模型生成；如果模型 API 不可用，脚本会使用本地模板生成同结构的 fallback 文章。
 
 ## Model API
 
@@ -54,6 +54,7 @@ MODEL_API_KEY=your-anthropic-api-key
 
 ## Reports
 
+- [2026-07-11 2026-07-11 从 alibaba/spring-ai-alibaba 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-07-11-2026-07-11-从-alibaba-spring-ai-alibaba.md)
 - [2026-07-11 2026-07-11 Java AI 每日情报](reports/2026-07-11-2026-07-11-java-ai-每日情报.md)
 - [2026-07-10 2026-07-10 Java AI 每日情报](reports/2026-07-10-2026-07-10-java-ai-每日情报.md)
 - [2026-07-09 2026-07-09 Java AI 每日情报](reports/2026-07-09-2026-07-09-java-ai-每日情报.md)
