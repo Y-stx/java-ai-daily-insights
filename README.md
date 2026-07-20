@@ -54,6 +54,7 @@ MODEL_API_KEY=your-anthropic-api-key
 
 ## Reports
 
+- [2026-07-20 2026-07-20 从 Spring AI 学 RAG 工程化：给大二升大三学生的 Java AI 学习文章](reports/2026-07-20-2026-07-20-从-spring-ai-学-rag.md)
 - [2026-07-19 2026-07-19 从 Spring AI 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-07-19-2026-07-19-从-spring-ai-看-java.md)
 - [2026-07-18 2026-07-18 从 Spring AI 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-07-18-2026-07-18-从-spring-ai-看-java.md)
 - [2026-07-17 2026-07-17 从 Spring AI 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-07-17-2026-07-17-从-spring-ai-看-java.md)
