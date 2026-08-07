@@ -54,6 +54,7 @@ MODEL_API_KEY=your-anthropic-api-key
 
 ## Reports
 
+- [2026-08-07 2026-08-07 从 codenameone/CodenameOne 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-08-07-2026-08-07-从-codenameone-codenameone-看-java.md)
 - [2026-08-06 2026-08-06 从 Spring AI 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-08-06-2026-08-06-从-spring-ai-看-java.md)
 - [2026-08-05 2026-08-05 从 Spring AI 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-08-05-2026-08-05-从-spring-ai-看-java.md)
 - [2026-08-04 2026-08-04 从 Spring AI 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-08-04-2026-08-04-从-spring-ai-看-java.md)
