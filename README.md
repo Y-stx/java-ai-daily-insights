@@ -54,6 +54,7 @@ MODEL_API_KEY=your-anthropic-api-key
 
 ## Reports
 
+- [2026-08-20 2026-08-20 从 langchain4j/langchain4j 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-08-20-2026-08-20-从-langchain4j-langchain4j-看-java.md)
 - [2026-08-19 2026-08-19 从 langchain4j/langchain4j 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-08-19-2026-08-19-从-langchain4j-langchain4j-看-java.md)
 - [2026-08-18 2026-08-18 从 langchain4j/langchain4j 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-08-18-2026-08-18-从-langchain4j-langchain4j-看-java.md)
 - [2026-08-17 2026-08-17 从 dromara/Sa-Token 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-08-17-2026-08-17-从-dromara-sa-token-看.md)
