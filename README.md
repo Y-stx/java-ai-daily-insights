@@ -54,6 +54,7 @@ MODEL_API_KEY=your-anthropic-api-key
 
 ## Reports
 
+- [2026-09-12 2026-09-12 从 modelcontextprotocol/java-sdk 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-09-12-2026-09-12-从-modelcontextprotocol-java-sdk-看.md)
 - [2026-09-11 2026-09-11 从 dromara/skyeye 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-09-11-2026-09-11-从-dromara-skyeye-看-java.md)
 - [2026-09-10 2026-09-10 从 alibaba/spring-ai-alibaba 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-09-10-2026-09-10-从-alibaba-spring-ai-alibaba.md)
 - [2026-09-09 2026-09-09 从 alibaba/spring-ai-alibaba 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-09-09-2026-09-09-从-alibaba-spring-ai-alibaba.md)
