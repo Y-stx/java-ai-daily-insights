@@ -54,6 +54,7 @@ MODEL_API_KEY=your-anthropic-api-key
 
 ## Reports
 
+- [2026-10-01 2026-10-01 从 langchain4j/langchain4j 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-10-01-2026-10-01-从-langchain4j-langchain4j-看-java.md)
 - [2026-09-30 2026-09-30 从 beyond-aion/aion-server 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-09-30-2026-09-30-从-beyond-aion-aion-server.md)
 - [2026-09-29 2026-09-29 从 modelcontextprotocol/java-sdk 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-09-29-2026-09-29-从-modelcontextprotocol-java-sdk-看.md)
 - [2026-09-28 2026-09-28 从 modelcontextprotocol/java-sdk 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-09-28-2026-09-28-从-modelcontextprotocol-java-sdk-看.md)
