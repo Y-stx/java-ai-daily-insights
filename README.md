@@ -54,6 +54,7 @@ MODEL_API_KEY=your-anthropic-api-key
 
 ## Reports
 
+- [2026-10-28 2026-10-28 从 alibaba/spring-ai-alibaba 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-10-28-2026-10-28-从-alibaba-spring-ai-alibaba.md)
 - [2026-10-27 2026-10-27 从 alibaba/spring-ai-alibaba 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-10-27-2026-10-27-从-alibaba-spring-ai-alibaba.md)
 - [2026-10-26 2026-10-26 从 spring-projects/spring-ai 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-10-26-2026-10-26-从-spring-projects-spring-ai.md)
 - [2026-10-25 2026-10-25 从 langchain4j/langchain4j 看 Java AI 工程化：给大二升大三学生的学习文章](reports/2026-10-25-2026-10-25-从-langchain4j-langchain4j-看-java.md)
